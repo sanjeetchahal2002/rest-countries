@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: auto;
+  box-sizing: border-box;
+}
+.btn-fake-dark-mode {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 16px;
+  line-height: 1;
+  font-size: 26px;
+  background-color: #ffe8cc;
+  border: none;
+}
+
+.dark-mode {
+  background-color: black;
+  color: #fff;
+  transition: all 0.5s;
+}
+.dark-mode > div {
+  border: 1px solid white;
+}
+ul > a > li > div {
+  border: 1px solid white;
+}
