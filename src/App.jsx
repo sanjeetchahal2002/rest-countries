@@ -20,6 +20,7 @@ function App() {
               <Route path="/" element={<Navigate to="/app" replace={true} />} />
               <Route path="/app" element={<HomePage />} />
               <Route path="/app/:id" element={<CountryPage />} />
+              <Route path="*" element={<div>PAGE NOT FOUND🥲</div>} />
             </Routes>
           </Suspense>
         </BrowserRouter>
